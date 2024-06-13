@@ -5,18 +5,18 @@ require_relative "lib/firebase/verifier/version"
 Gem::Specification.new do |spec|
   spec.name = "firebase-verifier"
   spec.version = Firebase::Verifier::VERSION
-  spec.authors = ["BosEriko"]
-  spec.email = ["bos.eriko@gmail.com"]
+  spec.authors = ["KuruStudio"]
+  spec.email = ["mail@kuru.studio"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Verifier of Firebase Token"
+  spec.description = "Verifier of Firebase Token. This is used to extract important details in a Firebase Token."
+  spec.homepage = "https://kuru.studio/"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["https://kuru.studio/"] = spec.homepage
+  spec.metadata["https://github.com/kuru-studio/firebase-verifier"] = "TODO: Put your gem's public repo URL here."
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
