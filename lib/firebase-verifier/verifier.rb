@@ -5,7 +5,7 @@ require 'net/http'
 require 'json'
 require 'jwt'
 
-module Firebase
+module FirebaseVerifier
   module Verifier
     class Error < StandardError; end
     VALID_JWT_PUBLIC_KEYS_RESPONSE_CACHE_KEY = "firebase_jwt_public_keys_cache_key"

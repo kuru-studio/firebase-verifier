@@ -4,7 +4,7 @@ require_relative "lib/firebase/verifier/version"
 
 Gem::Specification.new do |spec|
   spec.name = "firebase-verifier"
-  spec.version = Firebase::Verifier::VERSION
+  spec.version = FirebaseVerifier::Verifier::VERSION
   spec.authors = ["KuruStudio"]
   spec.email = ["mail@kuru.studio"]
 
