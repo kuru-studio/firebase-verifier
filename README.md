@@ -32,7 +32,7 @@ Build the gem:
 
 Deploy the gem:
 
-    $ gem push firebase_verifier-0.1.0.gem
+    $ gem push firebase-verifier-0.1.0.gem
 
 ## Contributing
 

@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://kuru.studio"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "https://kuru.studio"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/kuru-studio/firebase-verifier"
