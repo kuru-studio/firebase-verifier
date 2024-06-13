@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/firebase-verifier/verifier/version"
+require_relative "lib/firebase-verifier/version"
 
 Gem::Specification.new do |spec|
   spec.name = "firebase-verifier"
-  spec.version = FirebaseVerifier::Verifier::VERSION
+  spec.version = FirebaseVerifier::VERSION
   spec.authors = ["KuruStudio"]
   spec.email = ["mail@kuru.studio"]
 
