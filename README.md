@@ -16,7 +16,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 To use it on your rails project:
 ```ruby
-firebase_project_id = <FIREBASE_PROJECT_ID>
+firebase_project_id = "<FIREBASE_PROJECT_ID>"
 firebase_verifier = FirebaseVerifier.new(firebase_project_id)
 decoded_token = firebase_verifier.decode(token)
 email = decoded_token["email"]
